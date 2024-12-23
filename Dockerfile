@@ -1,4 +1,4 @@
-FROM cscfi_rally
+FROM localhost/cscfi_rally
 
 # "rally" user (which is selected by-default) is owner of "/rally" directory,
 #   so there is no need to call chown or switch the user
